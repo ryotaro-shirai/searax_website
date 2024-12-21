@@ -684,7 +684,7 @@ opacity:0;
 }
 
 /* スマホ表示用。flipLeftTriggerを指定している親要素に指定しないとうまく動かない*/
-#vision,
+#about-searax,
 .service-area{
     transform:  translate3d(0, 0, 0);
 }

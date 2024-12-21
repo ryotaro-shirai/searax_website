@@ -188,7 +188,7 @@ h2{
 
 /* vision */
 
-#vision{
+#about-searax{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -197,48 +197,48 @@ h2{
 }
 
 @media screen and (max-width:768px) {
-    #vision{
+    #about-searax{
         margin:0 0 50px 0;
     }
     
 }
 
-#vision .img{
+#about-searax .img{
     width:40%;
     min-height: 590px;
     background:url("../img/pict_01.jpg") no-repeat center;
     background-size: cover;
 }
 
-#vision .content{
+#about-searax .content{
    width:50%; 
-    text-align: right;
+    text-align: left;
 }
 
 @media screen and (max-width:768px) {
-  #vision .img{
+  #about-searax .img{
     width:100%;
     min-height: 290px;
       margin:0 0 50px 0;
 }
 
-#vision .content{
+#about-searax .content{
    width:100%; 
     text-align: left;
 }  
 }
 
-#vision h2{
+#about-searax h2{
     color:var(--primary);
     margin:0 0 30px 0;
 }
 
-#vision p{
+#about-searax p{
     line-height: 2;
     margin: 0 0 50px 0;
 }
 
-#vision .vision-lead{
+#about-searax .vision-lead{
     position: relative;
     color:var(--primary);
     font-size:1.3rem;
@@ -247,17 +247,17 @@ h2{
 }
 
 @media screen and (max-width:768px) {
-#vision .vision-lead{
+#about-searax .vision-lead{
     font-size:1rem;
     }
     
 }
 
-#vision .vision-lead::after{
-     content:'';
+#about-searax .vision-lead::after{
+    content:'';
     position: absolute;
     bottom:-30px;
-    right:0;
+    left:0;
     background:var(--primary);
     width:12em;
     height: 3px;
