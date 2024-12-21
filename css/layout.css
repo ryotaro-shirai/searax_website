@@ -260,7 +260,7 @@ h2{
 
 #about-searax p{
     line-height: 2;
-    margin: 0 0 50px 0;
+    margin: 0 0 40px 0;
 }
 
 #about-searax .vision-lead{
@@ -286,6 +286,28 @@ h2{
     background:var(--primary);
     width:12em;
     height: 3px;
+}
+
+#about-searax .customers-title{
+    font-size:0.8rem;
+    font-weight: bold;
+    margin:0 0;
+}
+
+@media screen and (max-width:768px) {
+    #about-searax .customers-title{
+        font-size:0.6rem;
+    }
+}
+
+#about-searax .customers-name{
+    font-size:0.8rem;
+}
+
+@media screen and (max-width:768px) {
+    #about-searax .customers-name{
+        font-size:0.6rem;
+    }
 }
 
 /* service */
